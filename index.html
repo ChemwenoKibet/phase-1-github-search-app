@@ -1,32 +1,33 @@
-<html>
+<html lang="en">
 <head>
   <meta charset='UTF-8'/>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
   <meta http-equiv='X-UA-Compatible' content='ie=edge'/>
   <title>Document</title>
-  <script src='js/index.js'></script>
+  
   <link rel='stylesheet' href='index.css'/>
 </head>
 <body>
- <div id="main">
-  <h2>GitHub Search</h2>
+  <div id="main">
+    <h2>GitHub Search</h2>
 
-  <form id="'github-form"> <!-- Creates a form called github form -->
-    <input id="'search" type="text" name="search"> <!--has an input with the content search-->
-    <input type="submit" name="submit"/><!-- This is a submit button-->
-  </form>
-  <div id="github-container">
-    <ul id="user-list"> <!--Unordered list with the id user-list-->
+    <form id="github-form">
+      <label for="search">Enter</label>
+      <input id="search" type="text" name="search" placeholder="Username">
+      <input id="submit" type="submit" name="submit"/>  
+    </form>
 
-    </ul>
-    <ul id="repos-list"> <!--unordered list with the id of repo list-->
+    <div id="github-container">
+      <ul id="user-list">
 
-    </ul>
+      </ul>
+
+      <ul id="repos-list">
+
+        
+      </ul>
+    </div>
   </div>
-
-
-
- </div>
+<script src="js/index.js"></script>  
 </body>
 </html>
-
